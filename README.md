@@ -4,7 +4,7 @@ Udacity CarND Term 2, Project 1 - Extended Kalman Filters
 ## Project Basics
 In this project, I used C++ to write a program taking in radar and lidar data to track position using Extended Kalman Filters.
 
-The code will make a prediction based on the sensor measurement and updating the expected position.
+The code will make a prediction based on the sensor measurement and then update the expected position. See files in the 'src' folder for the primary C++ files making up this project.
 
 ## Build instructions
 Assuming you have 'cmake' and 'make' already:
@@ -21,10 +21,10 @@ In two different simulated runs, my Extended Kalman Filter produces the below re
 
 | Input |   MSE   |
 | ----- | ------- |
-|  px   | Content |
-|  py   | Content |
-|  vx   | Content |
-|  vy   | Content |
+|  px   | 0.06516 |
+|  py   | 0.06054 |
+|  vx   | 0.53321 |
+|  vy   | 0.54419 |
 
 ![Test One Visualization](https://github.com/mvirgo/Extended-Kalman-Filter/blob/master/vis_1.png "Test One Visualization")
 
@@ -32,9 +32,9 @@ In two different simulated runs, my Extended Kalman Filter produces the below re
 
 | Input |   MSE   |
 | ----- | ------- |
-|  px   | Content |
-|  py   | Content |
-|  vx   | Content |
-|  vy   | Content |
+|  px   | 0.18569 |
+|  py   | 0.19021 |
+|  vx   | 0.47401 |
+|  vy   | 0.82501 |
 
 ![Test Two Visualization](https://github.com/mvirgo/Extended-Kalman-Filter/blob/master/vis_2.png "Test Two Visualization")
