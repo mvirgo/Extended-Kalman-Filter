@@ -9,10 +9,10 @@ The code will make a prediction based on the sensor measurement and then update 
 ## Build instructions
 Assuming you have 'cmake' and 'make' already:
 1. Clone this repo.
-2. Make a build directory: mkdir build && cd build
-3. Compile: cmake .. && make
-4. Run it: ./ExtendedKF path/to/input.txt path/to/output.txt. You can find some sample inputs in 'data/'.
-    eg. ./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt
+2. Make a build directory: `mkdir build && cd build`
+3. Compile: `cmake .. && make`
+4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find some sample inputs in 'data/'.
+    * eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
 
 ## Results
 In two different simulated runs, my Extended Kalman Filter produces the below results. The x-position is shown as 'px', y-position as 'py', velocity in the x-direction is 'vx', while velocity in the y-direction is 'vy'. Residual error is calculated by mean squared error (MSE).
