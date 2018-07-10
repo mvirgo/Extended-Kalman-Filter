@@ -11,8 +11,7 @@ Assuming you have 'cmake' and 'make' already:
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find some sample inputs in 'data/'.
-    * eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
+4. Run it: `./ExtendedKF`
 
 ## Results
 In two different simulated runs, my Extended Kalman Filter produces the below results. The x-position is shown as 'px', y-position as 'py', velocity in the x-direction is 'vx', while velocity in the y-direction is 'vy'. Residual error is calculated by mean squared error (MSE).
@@ -21,20 +20,20 @@ In two different simulated runs, my Extended Kalman Filter produces the below re
 
 | Input |   MSE   |
 | ----- | ------- |
-|  px   | 0.06516 |
-|  py   | 0.06054 |
-|  vx   | 0.53321 |
-|  vy   | 0.54419 |
+|  px   | 0.0974 |
+|  py   | 0.0855 |
+|  vx   | 0.4517 |
+|  vy   | 0.4404 |
 
-![Test One Visualization](https://github.com/mvirgo/Extended-Kalman-Filter/blob/master/vis_1.png "Test One Visualization")
+
 
 *Test Two*
 
 | Input |   MSE   |
 | ----- | ------- |
-|  px   | 0.18569 |
-|  py   | 0.19021 |
-|  vx   | 0.47401 |
-|  vy   | 0.82501 |
+|  px   | 0.0726 |
+|  py   | 0.0965 |
+|  vx   | 0.4216 |
+|  vy   | 0.4932 |
 
-![Test Two Visualization](https://github.com/mvirgo/Extended-Kalman-Filter/blob/master/vis_2.png "Test Two Visualization")
+
