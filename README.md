@@ -20,10 +20,10 @@ In two different simulated runs, my Extended Kalman Filter produces the below re
 
 | Input |   MSE   |
 | ----- | ------- |
-|  px   | 0.06516 |
-|  py   | 0.06054 |
-|  vx   | 0.53321 |
-|  vy   | 0.54419 |
+|  px   | 0.0974 |
+|  py   | 0.0855 |
+|  vx   | 0.4517 |
+|  vy   | 0.4404 |
 
 
 
@@ -31,9 +31,9 @@ In two different simulated runs, my Extended Kalman Filter produces the below re
 
 | Input |   MSE   |
 | ----- | ------- |
-|  px   | 0.18569 |
-|  py   | 0.19021 |
-|  vx   | 0.47401 |
-|  vy   | 0.82501 |
+|  px   | 0.0726 |
+|  py   | 0.0965 |
+|  vx   | 0.4216 |
+|  vy   | 0.4932 |
 
 
